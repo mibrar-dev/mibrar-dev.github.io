@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>dashcn — moved</title>
+<meta name="robots" content="noindex">
+<script>
+  // Old deep links: /shadcn_flutter_kit/<path> -> /dashcn/<path>
+  var p = location.pathname;
+  if (p.indexOf('/shadcn_flutter_kit') === 0) {
+    location.replace('https://mibrar-dev.github.io/dashcn' + p.slice('/shadcn_flutter_kit'.length) + location.search + location.hash);
+  }
+</script>
+</head>
+<body><p>Page not found. The docs live at <a href="https://mibrar-dev.github.io/dashcn/">mibrar-dev.github.io/dashcn</a>.</p></body>
+</html>
